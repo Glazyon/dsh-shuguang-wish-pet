@@ -1,0 +1,52 @@
+{
+  "name": "dsh-shuguang-wish-pet",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "A clickable Shuguang wish companion that sits in the corner of the DeepSeek Harness window.",
+  "main": "index.js",
+  "icon": "./icon.png",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./icon": "./icon.png",
+    "./locale/*": "./locale/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale",
+    "assets",
+    "icon.png",
+    "NOTICE.md",
+    "LICENSE",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "engines": {
+    "dsh": ">=0.2.0"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "desktop-pet"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Glazyon/dsh-shuguang-wish-pet.git"
+  },
+  "homepage": "https://github.com/Glazyon/dsh-shuguang-wish-pet#readme",
+  "bugs": {
+    "url": "https://github.com/Glazyon/dsh-shuguang-wish-pet/issues"
+  }
+}
