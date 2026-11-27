@@ -1,6 +1,6 @@
 {
   "name": "dsh-shuguang-wish-pet",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "type": "module",
   "description": "A clickable Shuguang wish companion that sits in the corner of the DeepSeek Harness window.",
@@ -48,5 +48,9 @@
   "homepage": "https://github.com/Glazyon/dsh-shuguang-wish-pet#readme",
   "bugs": {
     "url": "https://github.com/Glazyon/dsh-shuguang-wish-pet/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }

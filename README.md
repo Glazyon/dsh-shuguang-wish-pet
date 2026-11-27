@@ -2,15 +2,15 @@
 
 透明背景的交互桌宠，支持动作、形态切换、拖动定位与右键费用对话框。
 
-**v0.1.0 · 2026-11-27**  
+**v0.1.1 · 2026-11-27**  
 适用于 DeepSeek Harness >= 0.2.0，验证环境为 Windows 桌面版 0.2.2-rc.5。
 
 ## 安装
 
-在 **插件 → 添加插件** 中粘贴：
+在 **插件 → 添加插件** 中选择中国大陆镜像源（或 npm 官方源），粘贴：
 
 ```text
-github:Glazyon/dsh-shuguang-wish-pet#v0.1.0
+dsh-shuguang-wish-pet@0.1.1
 ```
 
 安装后刷新或重启客户端。
@@ -18,7 +18,7 @@ github:Glazyon/dsh-shuguang-wish-pet#v0.1.0
 想一起安装四套皮肤及三只 PET，请使用 [星源主题套装](https://github.com/Glazyon/dsh-shuguang-skin)：
 
 ```text
-github:Glazyon/dsh-shuguang-skin#v0.1.0
+dsh-shuguang-skin@0.1.1
 ```
 
 ## 操作
@@ -41,3 +41,7 @@ github:Glazyon/dsh-shuguang-skin#v0.1.0
 插件代码采用 [MIT License](LICENSE)。角色立绘、游戏动画、标志和字体具有各自的权利归属与使用条款，**不属于代码的 MIT 许可**，详见 [NOTICE.md](NOTICE.md) 及随附字体许可。
 
 这是面向 DeepSeek Harness 的非官方同人定制项目，与游戏权利人及 DeepSeek 无隶属关系。仓库不包含用户账户凭据、对话记录或个人配置。
+
+## v0.1.1 镜像适配
+
+已将三个 PET 的依赖由 GitHub 固定标签改为 npm 精确版本；运行资源全部随包提供。四包 registry 安装结构已通过隔离测试，原 v0.1.0 标签保留。
